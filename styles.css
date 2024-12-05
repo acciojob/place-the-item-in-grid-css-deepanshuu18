@@ -1,17 +1,17 @@
-
-/* Your CSS Code here. */
 .holder {
-    display: grid; 
-    grid-template-columns: repeat(2, 1fr)
-    grid-template-rows: repeat(2, 1fr);
-    width: 200px; 
-    height: 200px; 
-    gap: 0; 
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  width: 200px;                     
+  height: 200px;                       
 }
 
+/* Styling for the grid items (optional, for clarity) */
 .item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #000; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;  
+}
+.holder{
+	background-color:grey;
 }
